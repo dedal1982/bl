@@ -1,4 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f1f7e6;
+}
 h1,
 h2,
 h3,
@@ -11,8 +14,8 @@ p {
 table {
   max-width: 700px;
   width: 100%;
-  font-family: "Montserrat", sans-serif;
   border-collapse: collapse;
+  border-right: 1px solid #000;
 }
 td {
   border-right: 1px solid #000;
@@ -21,7 +24,6 @@ td {
 .column1 {
   width: 70%;
   font-size: 18px;
-  line-height: 20px;
   font-weight: 500;
 }
 .col-item {
@@ -31,8 +33,7 @@ td {
 }
 .column2 {
   width: 30%;
-  font-size: 18px;
-  line-height: 20px;
+  font-size: 15px;
   font-weight: 500;
 }
 table span {
@@ -42,6 +43,7 @@ table span {
 }
 .n-wrapp {
   display: flex;
+  padding: 10px 10px 20px 10px;
 }
 .n-end {
   position: relative;
@@ -66,4 +68,13 @@ table span {
 }
 .n-bold {
   font-weight: bold;
+}
+/*---blank__manual---*/
+.blank__manual {
+  position: relative;
+  border-top: 1px solid #000;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
