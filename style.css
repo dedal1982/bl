@@ -155,3 +155,9 @@ td {
 .n-manual-list {
   font-size: 12px;
 }
+img.print {
+  position: absolute;
+  width: 100px;
+  top: -50px;
+  right: 200px;
+}
