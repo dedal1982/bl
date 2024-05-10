@@ -24,12 +24,17 @@ td {
   line-height: 20px;
   font-weight: 500;
 }
-
+.col-item {
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+}
 .column2 {
   width: 30%;
 }
 table span {
   display: inline-block;
   min-width: 10%;
+  width: 100%;
   border-bottom: 0.5px solid #000;
 }
