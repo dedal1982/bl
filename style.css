@@ -141,6 +141,7 @@ td {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  border-right: 1px solid #000;
 }
 .n-manual-title {
   font-size: 15px;
