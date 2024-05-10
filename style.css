@@ -1,0 +1,19 @@
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+.n-form {
+  flex-basis: 50%;
+}
+.n-wrapper {
+  display: flex;
+  align-items: center;
+}
+.n-inner {
+  display: flex;
+  flex-direction: column;
+}
+.n-inner-item {
+  display: flex;
+}
