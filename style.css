@@ -11,6 +11,11 @@ h6,
 p {
   margin: 0;
 }
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
 table {
   max-width: 700px;
   width: 100%;
@@ -42,7 +47,9 @@ table span {
   border-bottom: 0.1px solid #000;
 }
 .n-wrapp {
+  max-width: 700px;
   display: flex;
+  flex-direction: column;
   padding: 10px 10px 20px 10px;
 }
 .n-end {
@@ -78,11 +85,14 @@ table span {
   justify-content: space-between;
 }
 .n-manual-title {
-  font-size: 17px;
+  font-size: 15px;
   font-style: italic;
-  margin-top: 12px;
-  margin-bottom: 12px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 .n-manual-subtitle {
   font-size: 13px;
+}
+.n-manual-list {
+  font-size: 12px;
 }
