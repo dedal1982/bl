@@ -16,6 +16,39 @@ ul {
   padding: 0;
   margin: 0;
 }
+.n-wrapp {
+  max-width: 700px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px 10px 20px 10px;
+}
+.n-top {
+  width: 100%;
+  display: flex;
+}
+.n-top-item {
+  display: flex;
+  flex-direction: column;
+}
+.n-top-logo {
+  width: 170px;
+}
+.n-top-logo img {
+  width: 100%;
+}
+.n-top-contact {
+  display: flex;
+  flex-direction: column;
+}
+.n-contact-item {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.n-contact-item img {
+  width: 20px;
+  height: 15px;
+}
 table {
   max-width: 700px;
   width: 100%;
@@ -45,12 +78,6 @@ table span {
   display: inline-block;
   min-width: 10%;
   border-bottom: 0.1px solid #000;
-}
-.n-wrapp {
-  max-width: 700px;
-  display: flex;
-  flex-direction: column;
-  padding: 10px 10px 20px 10px;
 }
 .n-end {
   position: relative;
