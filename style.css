@@ -33,6 +33,7 @@ ul {
 .n-top {
   width: 100%;
   display: flex;
+  gap: 20px;
   margin-bottom: 10px;
 }
 .n-top-item {
@@ -58,7 +59,7 @@ ul {
   width: 20px;
   height: 15px;
 }
-table {
+.n-table {
   max-width: 700px;
   width: 100%;
   border-collapse: collapse;
@@ -67,6 +68,25 @@ table {
 td {
   border-right: 1px solid #000;
   padding: 0px 5px 0px 5px;
+}
+.n-top-data {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.n-top-inner {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.n-data-item {
+  width: fit-content;
+  white-space: nowrap;
+  font-size: 18px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  border-right: none;
 }
 .column1 {
   width: 70%;
@@ -83,7 +103,7 @@ td {
   font-size: 15px;
   font-weight: 500;
 }
-table span {
+.n-table span {
   display: inline-block;
   min-width: 10%;
   border-bottom: 0.1px solid #000;
