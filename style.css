@@ -4,7 +4,9 @@ ul {
   margin: 0;
 }
 .n-form {
-  flex-basis: 50%;
+  display: flex;
+  max-width: 700px;
+  width: 100%;
 }
 .n-wrapper {
   display: flex;
@@ -16,4 +18,7 @@ ul {
 }
 .n-inner-item {
   display: flex;
+}
+.n-form-right {
+  flex-basis: 70%;
 }
