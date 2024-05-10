@@ -14,8 +14,7 @@ body {
     padding: 10px !important;
   }
 }
-@media print {
-}
+
 h1,
 h2,
 h3,
@@ -32,13 +31,13 @@ ul {
 }
 .n-container {
   display: flex;
+  height: 100%;
 }
 .n-wrapp {
   max-width: 700px;
   display: flex;
   flex-direction: column;
   padding: 20px;
-  background-color: #f1f7e6;
 }
 .n-top {
   width: 100%;
