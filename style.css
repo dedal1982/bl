@@ -10,3 +10,8 @@ table {
 .column2 {
   width: 30%;
 }
+table span {
+  display: inline-block;
+  width: 30%;
+  border-bottom: 1px solid #000;
+}
