@@ -43,8 +43,11 @@ table span {
 .n-end {
   position: relative;
   top: 20px;
+  left: 50px;
   border: none;
 }
 .n-price {
   color: red;
+  padding-left: 5px;
+  box-sizing: border-box;
 }
