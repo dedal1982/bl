@@ -86,7 +86,7 @@ td {
   font-weight: 500;
 }
 .n-span {
-  margin-right: 20px;
+  margin-right: 10px;
   border-bottom: none !important;
 }
 .n-top-price {
@@ -112,7 +112,7 @@ td {
 
 .n-end {
   position: relative;
-  top: 20px;
+  top: 10px;
   left: 50px;
   border: none !important;
 }
