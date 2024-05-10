@@ -34,7 +34,7 @@ ul {
   height: 100%;
 }
 .n-indent {
-  margin-right: 30px;
+  margin-right: 20px;
 }
 .n-wrapp {
   max-width: 700px;
@@ -85,7 +85,15 @@ td {
   font-size: 18px;
   font-weight: 500;
 }
-
+.n-span {
+  margin-right: 20px;
+  border-bottom: none !important;
+}
+.n-top-price {
+}
+.n-column1 {
+  width: 100%;
+}
 .col-item {
   display: flex;
   align-items: center;
@@ -101,9 +109,7 @@ td {
   min-width: 10%;
   border-bottom: 0.1px solid #000;
 }
-.n-top-price {
-  min-width: 30% !important;
-}
+
 .n-end {
   position: relative;
   top: 20px;
