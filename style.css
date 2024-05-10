@@ -35,6 +35,5 @@ td {
 table span {
   display: inline-block;
   min-width: 10%;
-  width: 100%;
   border-bottom: 0.5px solid #000;
 }
