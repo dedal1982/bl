@@ -70,11 +70,19 @@ table span {
   font-weight: bold;
 }
 /*---blank__manual---*/
-.blank__manual {
+.n-manual {
   position: relative;
   border-top: 1px solid #000;
-  height: 400px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+.n-manual-title {
+  font-size: 17px;
+  font-style: italic;
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+.n-manual-subtitle {
+  font-size: 13px;
 }
