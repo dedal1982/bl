@@ -1,17 +1,1 @@
-table {
-  max-width: 700px;
-  width: 100%;
-  border-collapse: collapse;
-}
-.td-1,
-td {
-  border: 1px solid black;
-  padding: 8px;
-  text-align: left;
-}
-.td-1 {
-  width: 70%;
-}
-td {
-  width: 30%;
-}
+
