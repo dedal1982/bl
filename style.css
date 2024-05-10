@@ -1,24 +1,17 @@
-ul {
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-}
-.n-form {
-  display: flex;
+table {
   max-width: 700px;
   width: 100%;
+  border-collapse: collapse;
 }
-.n-wrapper {
-  display: flex;
-  align-items: center;
+.td-1,
+td {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: left;
 }
-.n-inner {
-  display: flex;
-  flex-direction: column;
+.td-1 {
+  width: 70%;
 }
-.n-inner-item {
-  display: flex;
-}
-.n-form-right {
-  flex-basis: 70%;
+td {
+  width: 30%;
 }
