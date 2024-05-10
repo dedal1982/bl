@@ -11,7 +11,7 @@ body {
   }
   .n-wrapp {
     flex-basis: 50%;
-    padding: 10px !important;
+    padding: 10px 0 !important;
   }
 }
 
@@ -29,6 +29,12 @@ ul {
   padding: 0;
   margin: 0;
 }
+.n-border {
+  padding-left: 10px;
+  padding-right: 10px;
+  box-sizing: border-box;
+  border-right: 1px solid #000;
+}
 .n-container {
   display: flex;
   height: 100%;
@@ -40,7 +46,7 @@ ul {
   max-width: 700px;
   display: flex;
   flex-direction: column;
-  padding: 20px 10px;
+  padding: 20px 0px;
 }
 .n-top {
   width: 100%;
@@ -71,14 +77,19 @@ ul {
   height: 15px;
 }
 .n-table {
-  /* max-width: 600px; */
   width: 100%;
   border-collapse: collapse;
-  border-right: 1px solid #000;
+  margin-top: 10px;
 }
 td {
   border-right: 1px solid #000;
   padding: 0px 5px 0px 5px;
+}
+.no-border {
+  border: none;
+}
+td:nth-child(even) {
+  border: none;
 }
 .column1 {
   width: 70%;
@@ -142,6 +153,8 @@ td {
   flex-direction: column;
   justify-content: space-between;
   border-right: 1px solid #000;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 .n-manual-title {
   font-size: 15px;
