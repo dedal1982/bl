@@ -1,5 +1,5 @@
 body {
-  font-family: Arial, sans-serif;
+  font-family: sans-serif;
 }
 @media print {
   body,
@@ -82,7 +82,6 @@ ul {
 .n-table {
   width: 100%;
   border-collapse: collapse;
-  margin-top: 10px;
 }
 td {
   border-right: 1px solid #000;
@@ -96,7 +95,7 @@ td:nth-child(even) {
 }
 .column1 {
   width: 70%;
-  font-size: 19px;
+  font-size: 16px;
 }
 .n-span {
   margin-right: 10px;
@@ -134,7 +133,6 @@ td:nth-child(even) {
 .n-price {
   font-weight: 400;
   font-size: 15px;
-  line-height: 18px;
   color: #000;
   padding-left: 10px;
   box-sizing: border-box;
@@ -161,16 +159,16 @@ td:nth-child(even) {
   padding-right: 10px;
 }
 .n-manual-title {
-  font-size: 15px;
+  font-size: 14px;
   font-style: italic;
   margin-top: 10px;
   margin-bottom: 10px;
 }
 .n-manual-subtitle {
-  font-size: 13px;
+  font-size: 11px;
 }
 .n-manual-list {
-  font-size: 12px;
+  font-size: 11px;
 }
 img.print {
   position: absolute;
