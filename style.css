@@ -4,10 +4,11 @@ body {
 @media print {
   body,
   html {
-    height: auto;
     page-break-inside: avoid;
     margin: 0 !important;
     padding: 0 !important;
+    max-height: 100vh;
+    max-width: 100vw;
   }
   .n-wrapp {
     flex-basis: 50%;
@@ -41,6 +42,8 @@ ul {
 }
 .n-indent {
   margin-right: 20px;
+  border-bottom: none !important;
+  padding: 0 !important;
 }
 .n-wrapp {
   max-width: 700px;
@@ -93,14 +96,15 @@ td:nth-child(even) {
 }
 .column1 {
   width: 70%;
-  font-size: 18px;
-  font-weight: 500;
+  font-size: 19px;
 }
 .n-span {
   margin-right: 10px;
   border-bottom: none !important;
 }
-.n-top-price {
+.n-span-top {
+  margin: 0 !important;
+  min-width: fit-content !important;
 }
 .n-column1 {
   width: 100%;
