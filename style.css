@@ -121,7 +121,7 @@ td:nth-child(even) {
 .n-table span {
   display: inline-block;
   min-width: 10%;
-  border-bottom: 0.1px solid #000;
+  border-bottom: 0.1px solid #5c5b5b70;
 }
 
 .n-end {
@@ -161,14 +161,14 @@ td:nth-child(even) {
 .n-manual-title {
   font-size: 14px;
   font-style: italic;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 .n-manual-subtitle {
   font-size: 11px;
 }
 .n-manual-list {
-  font-size: 11px;
+  font-size: 12px;
 }
 img.print {
   position: absolute;
